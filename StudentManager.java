@@ -8,16 +8,6 @@ public class StudentManager {
         students.add(student);
     }
 
-    // public static void updateStudent(String oldId, String newName, String newId) {
-    //     for (Student student : students) {
-    //         if (student.getId().equals(oldId)) {
-    //             student.setName(newName);
-    //             student.setId(newId);
-    //             return;
-    //         }
-    //     }
-    // }
-        // Change this 
     public static Student getStudentById(String id) {
         for (Student student : students) {
             if (student.getId().equals(id)) {
